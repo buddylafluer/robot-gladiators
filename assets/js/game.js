@@ -1,1 +1,17 @@
-window.alert("This is an alert! Javascript is running!")
+var playerName = window.prompt("What is your robot's name?");
+
+console.log(playerName);
+
+console.log("this is a string, good for leaving a message");
+
+console.log(10+10);
+
+console.log("our robots name is " + playerName);
+
+// this creates a function named "fight"
+
+function fight() {
+    window.alert("The fight has begun!");
+}
+
+// fight();
